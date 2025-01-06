@@ -87,12 +87,6 @@ public class TaffyManager : AInstance<TaffyManager>, IReloadable
     [Header("DEV TOOLS")]
     [Tooltip("Enable if we want to use CTRL + T to skip taffy lines")]
     [SerializeField] private bool debugMode;
-
-    
-    public void OnReload()
-    {
-        //
-    }
     
     public void OnEnable()
     {

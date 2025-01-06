@@ -8,6 +8,14 @@ using UnityEngine.UI;
 public class TaffyMinigame : MonoBehaviour
 {
 
+    /*
+     * TAFFY MINIGAME PROMPT SCRIPT:
+     * The TAFFY minigame prompt is used to prompt TAFFY to teach the player about minigames
+     *
+     * @Author : Thomas Berner
+     * Jan, 20, 2024
+     */
+    
     [Header("Taffy Location")]
     [Tooltip("False for Navigator, True for Vitalist")]
     [SerializeField] private bool vitalist;
